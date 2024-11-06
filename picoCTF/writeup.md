@@ -10,7 +10,7 @@ How I approached the challenge:
 On running the instance I was given three options,
 Breakf@st_Burger, Gr%114d_Cheese, Bac0n_D3luxe
 
-Since the challenge hint had to do with format specifiers vulnaribilities, I entered the 2nd option as it is a format vulnaribility
+Since the challenge hint had to do with format specifiers vulnaribilities, I entered the 2nd option as it has a format vulnaribility
 ```
 
 - step 2
