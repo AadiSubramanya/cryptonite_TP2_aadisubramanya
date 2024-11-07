@@ -1,4 +1,4 @@
-# tunn3l v1s10n
+![halfimage](https://github.com/user-attachments/assets/e76a0a67-506d-400b-9eaf-bc0339e193c3)# tunn3l v1s10n
 
 **Flag:** `picoCTF{qu1t3_a_v13w_2020}`
 
@@ -25,7 +25,7 @@ Upon inspection I found the place that had some invalid data and corrected it.
 ```
 I was then given this image
 ```
-![details](https://github.com/user-attachments/assets/04da8963-0ba7-4fbc-9fe6-9dffcc66bb85)
+![halfimage](https://github.com/user-attachments/assets/5db47363-460a-4bd3-9c70-89d05ea9f706)
 ```
 The challenge was named 'tunnel vision', so I assumed that the image size is somehow cropped or reduced.
 ```
@@ -35,7 +35,7 @@ The challenge was named 'tunnel vision', so I assumed that the image size is som
 ```
 I thought of modifiying the image size in the hex data.
 ```
-![details](https://github.com/user-attachments/assets/35a1ea71-7c02-4c0a-9f11-ce08260bffef)
+![details](https://github.com/user-attachments/assets/02a968c0-22c5-47a1-bafd-bc0aea482161)
 ```
 On searching the data for the hex values of the size I found it in the second line
 ```
