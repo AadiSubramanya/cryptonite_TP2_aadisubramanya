@@ -1,5 +1,3 @@
-![halfimage](https://github.com/user-attachments/assets/e76a0a67-506d-400b-9eaf-bc0339e193c3)# tunn3l v1s10n
-
 **Flag:** `picoCTF{qu1t3_a_v13w_2020}`
 
 How I approached the challenge:
