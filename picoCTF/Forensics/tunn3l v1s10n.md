@@ -50,9 +50,7 @@ Final image that I got was: (It had the flag in it!)
 
 What you learned through solving this challenge:
 
-1. The bit map image file format
-2. second concept
-3. etc.
+1. The BMP file format
 
 Other incorrect methods you tried:
 
