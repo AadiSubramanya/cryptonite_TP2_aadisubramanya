@@ -7,19 +7,21 @@ How I approached the challenge:
 - step 1
 
 ```
-After looking at the extension of the file and doing some research into what pcapng files are, I got to know that
-you can access it using tools like wireshark
+After looking at the extension of the file and doing some research into what pcapng files are, 
+I got to know that you can access it using tools like wireshark
 ```
 ![image](https://github.com/user-attachments/assets/dbeb521e-11fa-426d-bcc6-e18a6547dd28)
 
 - step 2
 
 ```
-Upon opening and extracting as tftp (as the file is named) using wireshark, I got a folder that had multiple files under it like so:
+Upon opening and extracting as tftp (as the file is named) using wireshark, I got a folder that
+had multiple files under it like so:
 ```
 ![image](https://github.com/user-attachments/assets/6913f554-de88-48b1-8935-b3fa7a76f6bd)
 ```
-Then I opened the instructions and got encrypted text. It looked like shifted encryption: I just tried rot13 decryption and it worked
+Then I opened the instructions and got encrypted text. It looked like shifted encryption so
+I just tried rot13 decryption and it worked
 ```
 ![first](https://github.com/user-attachments/assets/837e8e89-8838-4584-b691-b3cfa3be4098)
 ```
