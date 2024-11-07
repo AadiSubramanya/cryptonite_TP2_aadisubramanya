@@ -53,6 +53,7 @@ Since it didnt work I tried to install it. When I asked chat gpt what the error 
 
 ```
 Finally after installing using the steghide command I was able to reveal the hidden data in one of the images like so:
+(using "DUEDELLIGENCE" as passkey)
 ```
 
 - etc.
