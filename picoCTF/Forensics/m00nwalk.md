@@ -20,7 +20,7 @@ Upon realizing that it was sstv encoded, I tried to seach for an appropriate sst
 ```
 https://github.com/colaclanth/sstv/blob/master/README.md
 ```
-Went through the installation guide and then ran the command to decode the given image:
+Went through the installation guide and then ran the command to decode the given audio:
 sstv -d message.wav -o result.png
 
 On doing this it saved a png file in the sstv folder which had the flag in it!
@@ -29,7 +29,7 @@ On doing this it saved a png file in the sstv folder which had the flag in it!
 
 What you learned through solving this challenge:
 
-1. Installing open source github projects
+1. Installing any open source github projects
 2. Understanding SSTV encoding & decoding.
 
 Other incorrect methods you tried:
