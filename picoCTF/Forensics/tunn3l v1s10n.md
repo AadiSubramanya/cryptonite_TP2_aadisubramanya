@@ -1,0 +1,69 @@
+# tunn3l v1s10n
+
+**Flag:** `picoCTF{qu1t3_a_v13w_2020}`
+
+How I approached the challenge:
+
+- step 1
+
+```
+I put the given unknown file into a hex editor and found out that its header contains BM, which means it was a bit map file.
+![image](https://github.com/user-attachments/assets/e74561bf-6b96-4b65-9c32-6d0e9de45a3e)
+```
+
+- step 2
+
+```
+I then looked up for the right format of a bitmap file since I knew some part of this data was corrupted.
+Upon inspection I found the place that had some invalid data and corrected it.
+
+![initial](https://github.com/user-attachments/assets/da55bafa-284d-45f3-bc42-294ca2b2b981)
+![corrected](https://github.com/user-attachments/assets/18333029-977b-484b-b82a-9c9c6af4266d)
+```
+
+- step 3
+
+```
+I was then given this image
+![halfimage](https://github.com/user-attachments/assets/54d2f69a-6548-4ac6-a1e6-cb0e9d2a9eee)
+
+The challenge was named 'tunnel vision', so I assumed that the image size is somehow cropped or reduced.
+```
+
+- step 4
+
+```
+I thought of modifiying the image size in the hex data.
+
+![details](https://github.com/user-attachments/assets/35a1ea71-7c02-4c0a-9f11-ce08260bffef)
+
+On searching the data for the hex values of the size I found it in the second line
+![valuespresent](https://github.com/user-attachments/assets/baa76986-a866-49c7-95c2-32add5fe488c)
+
+Finally after modifying the size with trial and error I found the perfect size of the image
+![code](https://github.com/user-attachments/assets/fd319859-4785-4f8a-83d6-74a64af355b8)
+```
+
+```
+Final image that I got was: (It had the flag in it!)
+![fullimage](https://github.com/user-attachments/assets/9fc7437f-4a71-4248-b2af-de6c56b4d712)
+```
+
+What you learned through solving this challenge:
+
+1. first concept
+2. second concept
+3. etc.
+
+Other incorrect methods you tried:
+
+- a
+- b
+- c
+
+References
+
+- reference 1
+- reference 2
+- etc.
+
