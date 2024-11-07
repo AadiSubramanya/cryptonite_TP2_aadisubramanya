@@ -54,8 +54,7 @@ What you learned through solving this challenge:
 
 Other incorrect methods you tried:
 
-- I tried reading the data through terminal and just found rubbish that made no sense.
-
+- I tried reading the data through terminal and just found rubbish.
 References
 
 - Understanding bit map file format: (https://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/2003_w/misc/bmp_file_format/bmp_file_format.htm)
