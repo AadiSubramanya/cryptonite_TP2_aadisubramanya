@@ -7,16 +7,16 @@ How I approached the challenge:
 - step 1
 
 ```
-After looking at the extension of the file and doing some research into what pcapng files are, 
-I got to know that you can access it using tools like wireshark
+After looking at the extension of the file and doing some research into what pcapng files are, I got to know that you can access
+it using tools like wireshark
 ```
 ![image](https://github.com/user-attachments/assets/dbeb521e-11fa-426d-bcc6-e18a6547dd28)
 
 - step 2
 
 ```
-Upon opening and extracting as tftp (as the file is named) using wireshark, I got a folder that
-had multiple files under it like so:
+Upon opening and extracting as tftp (as the file is named) using wireshark, I got a folder that had multiple files under it
+like so:
 ```
 ![image](https://github.com/user-attachments/assets/6913f554-de88-48b1-8935-b3fa7a76f6bd)
 ```
@@ -32,7 +32,8 @@ I just tried rot13 decryption and it worked
 - step 3
 
 ```
-The plain text told me to go back to plan, so I then opened plan file through hexa d editor and again got encrypted text like so:
+The plain text told me to go back to plan, so I then opened plan file through hexa d editor and again got encrypted text 
+like so:
 ```
 ![third](https://github.com/user-attachments/assets/62cf3b31-86e8-4406-9b08-d1dcb8d87f1b)
 ```
