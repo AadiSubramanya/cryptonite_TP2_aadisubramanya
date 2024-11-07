@@ -17,13 +17,15 @@ Upon some research I got to know that they did this using slow-scan television (
 
 ```
 Upon realizing that it was sstv encoded, I tried to seach for an appropriate sstv decoder online and came across this github:
-https://github.com/colaclanth/sstv/blob/master/README.md
 ```
 https://github.com/colaclanth/sstv/blob/master/README.md
+```
+Went through the installation guide and then ran the command to decode the given image:
+sstv -d message.wav -o result.png
 
-- etc.
-
-![screenshot](./screenshot.png)
+On doing this it saved a png file in the sstv folder which had the flag in it!
+```
+![result](https://github.com/user-attachments/assets/419378ed-e248-4913-aed3-c6a5b70209a3)
 
 What you learned through solving this challenge:
 
