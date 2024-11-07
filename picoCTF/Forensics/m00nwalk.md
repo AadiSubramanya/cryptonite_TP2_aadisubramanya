@@ -17,9 +17,9 @@ Upon some research I got to know that they did this using slow-scan television (
 
 ```
 Upon realizing that it was sstv encoded, I tried to seach for an appropriate sstv decoder online and came across this github:
-
+https://github.com/colaclanth/sstv/blob/master/README.md
 ```
-(https://github.com/colaclanth/sstv/blob/master/README.md)
+https://github.com/colaclanth/sstv/blob/master/README.md
 
 - etc.
 
