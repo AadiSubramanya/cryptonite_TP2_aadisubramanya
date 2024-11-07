@@ -15,7 +15,7 @@ you can access it using tools like wireshark
 - step 2
 
 ```
-Upon opening and extracting as tftp (as the file is named), I got a folder that had multiple files under it like so:
+Upon opening and extracting as tftp (as the file is named) using wireshark, I got a folder that had multiple files under it like so:
 ```
 ![image](https://github.com/user-attachments/assets/6913f554-de88-48b1-8935-b3fa7a76f6bd)
 ```
