@@ -20,7 +20,7 @@ like so:
 ```
 ![image](https://github.com/user-attachments/assets/6913f554-de88-48b1-8935-b3fa7a76f6bd)
 ```
-Then I opened the instructions and got encrypted text. It looked like shifted encryption soI just tried rot13 decryption and 
+Then I opened the instructions and got encrypted text. It looked like shifted encryption so I just tried rot13 decryption and 
 it worked
 ```
 ![first](https://github.com/user-attachments/assets/837e8e89-8838-4584-b691-b3cfa3be4098)
