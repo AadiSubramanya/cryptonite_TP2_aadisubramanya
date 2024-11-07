@@ -25,8 +25,7 @@ Upon inspection I found the place that had some invalid data and corrected it.
 ```
 I was then given this image
 ```
-![halfimage](https://github.com/user-attachments/assets/54d2f69a-6548-4ac6-a1e6-cb0e9d2a9eee)
-
+![details](https://github.com/user-attachments/assets/04da8963-0ba7-4fbc-9fe6-9dffcc66bb85)
 ```
 The challenge was named 'tunnel vision', so I assumed that the image size is somehow cropped or reduced.
 ```
