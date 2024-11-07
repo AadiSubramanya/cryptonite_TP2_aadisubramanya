@@ -49,19 +49,15 @@ Final image that I got was: (It had the flag in it!)
 
 What you learned through solving this challenge:
 
-1. first concept
+1. The bit map image file format
 2. second concept
 3. etc.
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- I tried reading the data through terminal and just found rubbish that made no sense.
 
 References
 
-- reference 1
-- reference 2
-- etc.
+- Understanding bit map file format: (https://www.ece.ualberta.ca/~elliott/ee552/studentAppNotes/2003_w/misc/bmp_file_format/bmp_file_format.htm)
 
