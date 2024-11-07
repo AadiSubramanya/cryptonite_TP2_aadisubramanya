@@ -5,7 +5,7 @@ How I approached the challenge:
 - step 1
 
 ```
-I put the given unknown file into a hex editor and found out that its header contains BM, which means it was a bit map file.
+I put the given unknown file into a hex editor and found out that its header contains BM, which means it was a bit map file. I renamed it to a .bmp file accordingly.
 ```
 ![image](https://github.com/user-attachments/assets/e74561bf-6b96-4b65-9c32-6d0e9de45a3e)
 
