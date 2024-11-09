@@ -7,7 +7,7 @@ How you approached the challenge:
 - step 1
 
 ```
-code
+Since the command was named cookies, I went to the 
 ```
 
 - step 2
