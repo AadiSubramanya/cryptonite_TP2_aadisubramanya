@@ -16,7 +16,6 @@ code
 terminal output
 ```
 
-- etc.
 ![image](https://github.com/user-attachments/assets/d98a4db8-b7bb-41b4-a75a-5215ebfe65e2)
 
 What you learned through solving this challenge:
