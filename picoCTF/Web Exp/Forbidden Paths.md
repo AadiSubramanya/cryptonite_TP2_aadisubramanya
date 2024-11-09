@@ -18,7 +18,8 @@ terminal output
 
 - etc.
 
-![screenshot](./screenshot.png)
+![image](https://github.com/user-attachments/assets/e31b5be8-aaa7-4508-bcba-58dafe71400a)
+![image](https://github.com/user-attachments/assets/98033012-5b57-4e70-970d-a26d50a2b081)
 
 What you learned through solving this challenge:
 
