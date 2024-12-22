@@ -1,4 +1,4 @@
-# R STANDS ALONE!
+# R STANDS ALONE
 
 **Flag:** `nite{7h3_Latt1c3_kn0ws_Ur_Pr1m3s_very_vvery_v3Ry_w3LLL}`
 
@@ -7,14 +7,17 @@ How you approached the challenge:
 - step 1
 
 ```
-code
+Observed the code and got two equations through which required cipher is generated. 
+Searched online for a program that solves 2 big equations in the right way.
+and got desired x:1224543274432953164098494823673082544474888158727042278518055942472603042171050926269717319080882631327061394998314354487201417153661
 ```
 
 - step 2
 
 ```
-terminal output
+Upon doing long_to_bytes of that number, i got the flag
 ```
+![image](https://github.com/user-attachments/assets/97353bd7-54f9-4ab9-9030-ca91634e99de)
 
 - etc.
 
