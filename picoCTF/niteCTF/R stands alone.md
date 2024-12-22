@@ -18,11 +18,11 @@ So I analyzed that code and knew I needed to:
 Next,
 I just followed these steps I learnt earlier from reference code to solve the problem
 
-1. **Modular Inverse:**
+1. **Mod Inverse:**
    I used the `mod_inverse` function from `sympy` module (unlike the Crypto.Util.number like mentioned in reference code, because i had used this earlier) to calculate this.
 
 2. **Decrypting the Message:** 
-   Once I had `e_mod`, I could use it to decrypt the message using modular exponentiation, which actually reverses the encryption
+   Once I had `e_inv`,(which is the private key) I could use it to decrypt the message using modular exponentiation, which actually reverses the encryption
 ![image](https://github.com/user-attachments/assets/c0fe44c8-d7b3-4311-a7da-e176b39359c1)
 
 ### CODE:
