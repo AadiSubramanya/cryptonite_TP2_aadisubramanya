@@ -7,14 +7,14 @@ How you approached the challenge:
 - step 1
 
 ```
-code
+Since the challenge was named forbidden "PATHS" i immedietly tried giving different paths as input in the searchbox
+
+./flag
+../flag
+../../flag
+../../../flag
 ```
 ![image](https://github.com/user-attachments/assets/e31b5be8-aaa7-4508-bcba-58dafe71400a)
-- step 2
-
-```
-terminal output
-```
 ![image](https://github.com/user-attachments/assets/98033012-5b57-4e70-970d-a26d50a2b081)
 
 
