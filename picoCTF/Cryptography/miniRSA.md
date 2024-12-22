@@ -1,6 +1,6 @@
 # miniRSA
 **Flag:** `picoCTF{n33d_a_lArg3r_e_d0cd6eae}`
-
+---
 How you approached the challenge:
 
 - step 1
@@ -20,6 +20,9 @@ Searched online and read about rsa decryption and applied accordingly
 Then got the flag on running
 ```
 ![image](https://github.com/user-attachments/assets/eeb44f5e-a978-4046-90e2-b478f87b6965)
+
+---
+
 What you learned through solving this challenge:
 
 1. Learnt how RSA keys are generated and various other terms involved 
