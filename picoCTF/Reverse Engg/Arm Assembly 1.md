@@ -54,16 +54,6 @@ This is division, so w0 is divided by w0(2) and stored back in w0.
 5440/3 = 1813
 ```
 
-```asm
-ldr	w1, [sp, 28]
-ldr	w0, [sp, 12]
-sub	w0, w1, w0
-```
-
-```
-subtraction by w0: 1813-85= 1728 and then returned by function
-```
-
 - step 3
 
 ```asm
@@ -74,7 +64,7 @@ adrp	x0, .LC0
 
 ```
 Here its checked if 0 == returned stuff then it goes to .LC0.
-Since we didnt obtain 0 we need to subtract 1728 from 1728 to get 0, therefore answer is 1728 convert it to hex and then wrap it in picoCTF{}
+Since we didnt obtain 0 we need to subtract 1813 from 1813 to get 0, therefore answer is 1813 convert it to hex and then wrap it in picoCTF{}
 ```
 
 What you learned through solving this challenge:
