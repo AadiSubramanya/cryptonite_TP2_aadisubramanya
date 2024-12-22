@@ -50,7 +50,7 @@ Just used long_to_bytes() to get the byte expression of that number and there it
 
 ### CODE:
 ```python
-  GNU nano 6.2                                                                                      long_bytes.py                                                                                                from Crypto.Util.number import long_to_bytes
+from Crypto.Util.number import long_to_bytes
 
 num = 1224543274432953164098494823673082544474888158727042278518055942472603042171050926269717319080882631327061394998314354487201417153661
 flag = long_to_bytes(num)
