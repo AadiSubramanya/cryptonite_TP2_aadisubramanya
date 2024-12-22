@@ -13,7 +13,7 @@ Since the challenge was named cookies, I went to the cookies section in inspect 
 - step 2
 
 ```
-Brute forced from big values all the way down untll i found that 25 was the max cookie that was giving any valid results.
+Brute forced from big values all the way down untll i found that 25 was the max cookie value that was giving any valid results.
 
 Again brute forced from 25 to 0 untill at 18 I got the desired flag
 ```
