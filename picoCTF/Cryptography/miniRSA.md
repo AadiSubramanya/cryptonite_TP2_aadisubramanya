@@ -5,9 +5,8 @@ How you approached the challenge:
 
 - step 1
 
-```
 ![minirsa](https://github.com/user-attachments/assets/06387e86-17bb-4d61-9092-112906790967)
-
+```
 Looked through the ciphertext file and noticed a very small value of e (public key), it isnt very mathematically heavy to decypt the message.
 ```
 
