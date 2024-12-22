@@ -24,7 +24,7 @@ So I used that code (which uses inverse function and logic i dont understand __f
 - step 2
 
 ```
-Just used long_to_bytes() to get the byte expression of that number and there it was! the flag!
+Just used long_to_bytes() to get the byte expression of that number and there it was!
 ```
 ![image](https://github.com/user-attachments/assets/dad4a318-ca34-4239-9b2a-d92338876888)
 
