@@ -53,7 +53,7 @@ class VaultDoor3 {
 }
 
 
-#analysed the code after going through some java basics because i have no idea about it..
+//analysed the code after going through some java basics because i have no idea about it..
 ```
 
 - step 2
