@@ -29,12 +29,6 @@ str     w0, [sp, 24]
 This tells us that w0 = 85, w1 = 6 and w2 = 3
 ```
 
-- step 3
-
-```
-Analyzed the code provided to find the required flag
-```
-
 ```asm
 ldr     w1, [sp, 16]
 lsl     w0, w1, w0
@@ -48,7 +42,6 @@ So it is left shifting w0, w1 times to the left and storing it back in w0
 1010101 << 6 = 1010101000000
 which is 5440 in decimal
 ```
-
 
 ```asm
 ldr     w1, [sp, 28]
@@ -70,6 +63,8 @@ sub	w0, w1, w0
 ```
 subtraction by original value: 906-85= 821 and then returned by function
 ```
+
+- step 3
 
 ```asm
 cmp	w0, 0
