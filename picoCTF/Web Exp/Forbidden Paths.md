@@ -19,6 +19,7 @@ Since the challenge was named forbidden "PATHS" i immedietly tried giving differ
 
 
 What you learned through solving this challenge:
+
 1. 
 
 Other incorrect methods you tried:
