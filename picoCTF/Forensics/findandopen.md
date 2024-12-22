@@ -44,6 +44,9 @@ References
 
 ![image](https://github.com/user-attachments/assets/569ec2b7-10ca-4171-bf41-bc71588cfd42)
 
+![image](https://github.com/user-attachments/assets/c5a54405-6e2c-48de-9803-310ed751cb5f)
+
+
 picoCTF{R34DING_LOKd_fil56_succ3ss_494c4f32}
 
 
