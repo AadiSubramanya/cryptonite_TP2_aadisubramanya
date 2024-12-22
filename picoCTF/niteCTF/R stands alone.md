@@ -4,6 +4,8 @@
 
 ---
 
+
+
 ### SOLUTION
 
 First,
@@ -13,6 +15,9 @@ I remember searching online on how to solve similar problems and often came acro
 So I analyzed that code and knew I needed to:
 1. Find the modular inverse of the public exponent `e` to get the private key exponent `d`
 2. Use this private key to decrypt the given message
+
+
+
 
 
 Next,
@@ -43,6 +48,9 @@ print("x",x)
 ```
 
 
+
+
+
 Finally, 
 ```
 Just used long_to_bytes() to get the byte expression of that number and there it was!
@@ -58,6 +66,9 @@ flag = long_to_bytes(num)
 
 print(flag)
 ```
+
+
+
 
 
 References (half the work 😂)
