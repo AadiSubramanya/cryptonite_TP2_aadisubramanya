@@ -52,6 +52,8 @@ class VaultDoor3 {
     }
 }
 
+
+#analysed the code after going through some java basics because i have no idea about it..
 ```
 
 - step 2
@@ -66,18 +68,12 @@ terminal output
 
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1.
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- running the program but it failed
 
 References
 
-- reference 1
-- reference 2
-- etc.
+- https://www.w3schools.com/java/
