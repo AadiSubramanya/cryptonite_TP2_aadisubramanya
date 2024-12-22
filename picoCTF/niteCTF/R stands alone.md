@@ -18,7 +18,7 @@ So I analyzed that code and knew I needed to:
 
 
 
-
+---
 
 Next,
 I just followed these steps I learnt earlier from reference code to solve the problem
@@ -49,7 +49,7 @@ print("x",x)
 
 
 
-
+---
 
 Finally, 
 ```
@@ -68,7 +68,7 @@ print(flag)
 ```
 
 
-
+---
 
 
 References (half the work 😂)
