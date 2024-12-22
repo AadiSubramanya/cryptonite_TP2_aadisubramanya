@@ -77,19 +77,14 @@ Here its checked if 0 == returned stuff then it goes to .LC0.
 Since we didnt obtain 0 we need to subtract 821 from 0 therefor answer is 821 convert it to hex and then wrap it in picoCTF{}
 ```
 
-![screenshot](./screenshot.png)
-
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1. Understanding assembly basics
+2. Tracking an assembly code
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- tried output of each step as hex and then wrapped in the flag lol
 
 References
 
