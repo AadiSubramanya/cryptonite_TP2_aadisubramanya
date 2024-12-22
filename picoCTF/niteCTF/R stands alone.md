@@ -25,7 +25,6 @@ I just followed these steps I learnt earlier from reference code to solve the pr
 ![image](https://github.com/user-attachments/assets/c0fe44c8-d7b3-4311-a7da-e176b39359c1)
 
 ### CODE:
-![image](https://github.com/user-attachments/assets/96e57afe-f543-4d6f-9139-4752a1467c35)
 
 ```python
 from sympy import mod_inverse
@@ -50,7 +49,14 @@ Just used long_to_bytes() to get the byte expression of that number and there it
 ![image](https://github.com/user-attachments/assets/dad4a318-ca34-4239-9b2a-d92338876888)
 
 ### CODE:
-![image](https://github.com/user-attachments/assets/39dc460e-cd74-4e7c-9c26-2b06a4ffeeaa)
+```python
+  GNU nano 6.2                                                                                      long_bytes.py                                                                                                from Crypto.Util.number import long_to_bytes
+
+num = 1224543274432953164098494823673082544474888158727042278518055942472603042171050926269717319080882631327061394998314354487201417153661
+flag = long_to_bytes(num)
+
+print(flag)
+```
 
 
 References (half the work 😂)
