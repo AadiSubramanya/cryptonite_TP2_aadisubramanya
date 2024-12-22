@@ -1,6 +1,6 @@
 # Arm Assembly 1
 
-**Flag:** `flag`
+**Flag:** `picoCTF{00000715}`
 
 How you approached the challenge:
 
@@ -26,7 +26,7 @@ mov     w0, 3
 str     w0, [sp, 24]
 ```
 ```
-This tells us that w0 = 85, w1 = 6 and w2 = 3
+This tells us that w0(1) = 85, w0(1) = 6 and w0(2) = 3
 ```
 
 ```asm
@@ -49,9 +49,9 @@ ldr     w0, [sp, 12]
 sub     w0, w1, w0
 ```
 ```
-This is division, so w0 is divided by w1 and stored back in w0.
+This is division, so w0 is divided by w0(2) and stored back in w0.
 
-5440/6 = 906
+5440/3 = 1813
 ```
 
 ```asm
@@ -61,7 +61,7 @@ sub	w0, w1, w0
 ```
 
 ```
-subtraction by original value: 906-85= 821 and then returned by function
+subtraction by w0: 1813-85= 1728 and then returned by function
 ```
 
 - step 3
@@ -74,7 +74,7 @@ adrp	x0, .LC0
 
 ```
 Here its checked if 0 == returned stuff then it goes to .LC0.
-Since we didnt obtain 0 we need to subtract 821 from 0 therefor answer is 821 convert it to hex and then wrap it in picoCTF{}
+Since we didnt obtain 0 we need to subtract 1728 from 1728 to get 0, therefore answer is 1728 convert it to hex and then wrap it in picoCTF{}
 ```
 
 What you learned through solving this challenge:
