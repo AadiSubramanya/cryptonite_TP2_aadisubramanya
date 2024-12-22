@@ -9,7 +9,7 @@ How you approached the challenge:
 ```
 So after catting the file and finding absolutely nothing, I tried to look at the first hint which was to use the gdb debugger. So I did that and installed gdb and ran
 
-'debugger0_a'
+'gdb debugger0_a'
 which gave me:
 ```
 ```
