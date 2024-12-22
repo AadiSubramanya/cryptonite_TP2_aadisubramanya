@@ -15,9 +15,11 @@ Looked through the ciphertext file and noticed a very small value of e (public k
 ```
 Searched online and read about rsa decryption and applied accordingly
 ```
-![image](https://github.com/user-attachments/assets/eeb44f5e-a978-4046-90e2-b478f87b6965)
 ![anotherdecoder](https://github.com/user-attachments/assets/33e67b9f-c99e-439c-8fbc-aa3594c9ff58)
-
+```
+Then got the flag on running
+```
+![image](https://github.com/user-attachments/assets/eeb44f5e-a978-4046-90e2-b478f87b6965)
 What you learned through solving this challenge:
 
 1. Learnt how RSA keys are generated and various other terms involved 
