@@ -11,7 +11,7 @@ Observed the code and got to know that this is very very similar to rsa encrypti
 I remember searching online on how to solve similar problems and often came across python code that solved this
 
 So I analyzed that code and knew I needed to:
-1. Find the modular inverse of the public exponent `e` (which is usually 65537) to get the private key exponent `d`
+1. Find the modular inverse of the public exponent `e` to get the private key exponent `d`
 2. Use this private key to decrypt the given message
 
 
