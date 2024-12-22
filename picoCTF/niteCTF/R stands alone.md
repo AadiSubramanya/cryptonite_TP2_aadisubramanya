@@ -14,8 +14,12 @@ So I used that code (which uses inverse function and logic i dont understand __f
 ```
 ![image](https://github.com/user-attachments/assets/c0fe44c8-d7b3-4311-a7da-e176b39359c1)
 
-### CODE
+### CODE:
 ![image](https://github.com/user-attachments/assets/96e57afe-f543-4d6f-9139-4752a1467c35)
+
+
+
+
 
 - step 2
 
@@ -24,7 +28,7 @@ Just used long_to_bytes() to get the byte expression of that number and there it
 ```
 ![image](https://github.com/user-attachments/assets/dad4a318-ca34-4239-9b2a-d92338876888)
 
-
+### CODE:
 ![image](https://github.com/user-attachments/assets/39dc460e-cd74-4e7c-9c26-2b06a4ffeeaa)
 
 
