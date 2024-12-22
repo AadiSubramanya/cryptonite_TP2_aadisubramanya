@@ -35,7 +35,6 @@ shared_key = 47
 ```
 With the given values such as the text_key, final cipher list and the values from second half of the encryption, I wrote a python program to decrypt the flag (aka the first half of the encryption)
 ```
-![WhatsApp Image 2024-12-22 at 21 24 11_df8bbbdb](https://github.com/user-attachments/assets/82353155-d3cf-4bbe-a828-6f07c1d0f4ec)
 ![WhatsApp Image 2024-12-22 at 21 24 28_10a7b0f5](https://github.com/user-attachments/assets/82517f15-b8bb-4298-95b8-06b7dd8cd2e4)
 
 
