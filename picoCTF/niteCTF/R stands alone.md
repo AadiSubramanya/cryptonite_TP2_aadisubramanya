@@ -71,6 +71,6 @@ print(flag)
 ---
 
 
-References (half the work 😂)
+References (goat 🙏)
 
 - https://b0mk35h.medium.com/unlocking-secrets-a-beginners-guide-to-rsa-decryption-in-python-89a71ccda295
