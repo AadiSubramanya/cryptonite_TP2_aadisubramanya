@@ -40,7 +40,7 @@ With the given values such as the text_key, final cipher list and the values fro
 
 What you learned through solving this challenge:
 
--
+-not much, it was quite easy
 
 Other incorrect methods you tried:
 
