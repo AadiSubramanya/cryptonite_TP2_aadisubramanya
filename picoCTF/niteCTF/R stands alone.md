@@ -4,51 +4,47 @@
 
 ---
 
-### How I Solved the Challenge:
+### How I Solved the Challenge
 
-#### Step 1: Identifying the Problem Type
-When I analyzed the challenge, it immediately reminded me of RSA encryption due to the modular arithmetic operations involving large numbers. I had previously studied how RSA works and recalled that reversing RSA encryption requires calculating the modular inverse of the public exponent `e`. 
+#### Step 1: Understanding the Problem
+When I first saw the challenge, it looked very similar to RSA encryption. I remembered from my previous studies that RSA works by using a pair of keys – a public key to encrypt and a private key to decrypt. 
 
-With this understanding, I knew I needed to:
-1. Compute the modular inverse of `e` with respect to `φ(N)` (or `(N - 1)` in this case).  
-2. Use the inverse to decrypt the ciphertext.  
+To solve this, I needed to:
+1. Find the modular inverse of the public exponent `e` (which is usually 65537) to get the private key exponent `d`.
+2. Use this private key to decrypt the given message.
 
-#### Step 2: Implementing the Solution
-Using my knowledge, I crafted a Python script to perform the decryption. Here's the process broken down:
-
-1. **Modular Inverse Calculation**  
-   The private key exponent `d` is computed using the modular inverse formula:  
+#### Step 2: Breaking It Down
+I quickly found that the process was simple if I followed these steps:
+1. **Modular Inverse:** The key to decrypting the message is finding `d`, which is the modular inverse of `e`. This means `d` satisfies the equation:  
    \[
-   d = e^{-1} \mod \phi(N)
+   e \cdot d \equiv 1 \ (\text{mod} \ (N-1))
    \]
-   I used the `Crypto.Util.number.inverse` function to calculate this efficiently.
+   I used the `inverse` function from Python's `Crypto.Util.number` to calculate this.
 
-2. **Decrypting the Ciphertext**  
-   Once `d` was calculated, I used modular exponentiation to decrypt the given ciphertext:  
-   \[
-   x = \text{right\_side}^{d} \mod N
-   \]
+2. **Decrypting the Message:** Once I had `d`, I could use it to decrypt the message using modular exponentiation, which essentially reverses the encryption.
 
-   Here's the Python code I used for this step:
-   ```python
-   from Crypto.Util.number import inverse, long_to_bytes
+Here’s the Python code I used to decrypt the message:
 
-   # Given values
-   right_side = 583923134770560329725969597854974954817875793223201855918544947864454662723867635785399659016709076642873878052382188776671557362982072671970362761186980877612369359390225243415378728776179883524295537607691571827283702387054497203051018081864728864347679606523298343320899830775463739426749812898275755128789910670953110189932506526059469355433776101712047677552
-   N = 17089720847522532186100904495372954796086523439343401190123572243129905753474678094845069878902485935983903151003792259885100719816542256646921114782358850654669422154056281086124314106159053995410679203972646861293990837092569959353563829625357193304859110289832087486433404114502776367901058316568043039359702726129176232071380909102959487599545443427656477659826199871583221432635475944633756787715120625352578949312795012083097635951710463898749012187679742033
-   e = 65537
+```python
+from Crypto.Util.number import inverse, long_to_bytes
 
-   # Step 1: Compute modular inverse of e mod (N-1)
-   phi_N = N - 1
-   e_inv = inverse(e, phi_N)
+# Given values
+right_side = 583923134770560329725969597854974954817875793223201855918544947864454662723867635785399659016709076642873878052382188776671557362982072671970362761186980877612369359390225243415378728776179883524295537607691571827283702387054497203051018081864728864347679606523298343320899830775463739426749812898275755128789910670953110189932506526059469355433776101712047677552
+N = 17089720847522532186100904495372954796086523439343401190123572243129905753474678094845069878902485935983903151003792259885100719816542256646921114782358850654669422154056281086124314106159053995410679203972646861293990837092569959353563829625357193304859110289832087486433404114502776367901058316568043039359702726129176232071380909102959487599545443427656477659826199871583221432635475944633756787715120625352578949312795012083097635951710463898749012187679742033
+e = 65537
 
-   # Step 2: Compute x using modular exponentiation
-   x = pow(right_side, e_inv, N)
-   print(f"x = {x}")
+# Step 1: Find the modular inverse of e mod (N-1)
+phi_N = N - 1
+e_inv = inverse(e, phi_N)
 
-   # Convert the result to bytes and print the flag
-   flag = long_to_bytes(x)
-   print(f"Flag: {flag.decode()}")
+# Step 2: Decrypt the message using modular exponentiation
+x = pow(right_side, e_inv, N)
+print(f"x = {x}")
+
+# Convert the result to bytes and print the flag
+flag = long_to_bytes(x)
+print(f"Flag: {flag.decode()}")
+
 
 
 
