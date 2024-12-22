@@ -54,23 +54,20 @@ Dump of assembler code for function main:
 End of assembler dump.
 ```
 
-- etc.
+```
+Since the question involved figuring out what is in the eax register, I saw the hex value near %eax and converted it to decimal as mentioned in the question giving me the required flag which I wrapped in picoCTF{}
+```
 ![image](https://github.com/user-attachments/assets/ddaafc83-a250-48d5-8442-3d2a14a46f8d)
+
 
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1. A little bit of how gdb debugger/gnu compiler works
+
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- trying to comprehend nothing from catting the file
 
 References
-
-- reference 1
-- reference 2
-- etc.
+-
