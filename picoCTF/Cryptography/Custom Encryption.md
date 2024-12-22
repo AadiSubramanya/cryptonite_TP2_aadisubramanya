@@ -29,8 +29,20 @@ b_key = 47
 
 shared_key = 47
 ```
-![WhatsApp Image 2024-12-22 at 21 23 08_45d2c0e2](https://github.com/user-attachments/assets/1ca23d69-4b25-4f1a-9e4d-f650955e4303)
+```python
+def generator(g, x, p):
+    return pow(g, x, p)
 
+a=..
+b=..
+c=..
+
+u = generator(a, b, c)
+
+print("final:", u)
+```
+adjusting a,b,c as needed
+```
 - step 2
 
 ```
