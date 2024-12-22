@@ -29,6 +29,7 @@ b_key = 47
 
 shared_key = 47
 ```
+### CODE: 
 ```python
 def generator(g, x, p):
     return pow(g, x, p)
@@ -41,6 +42,8 @@ u = generator(a, b, c)
 
 print("final:", u)
 ```
+
+```
 adjusting a,b,c as needed
 ```
 - step 2
@@ -48,6 +51,7 @@ adjusting a,b,c as needed
 ```
 With the given values such as the text_key, final cipher list and the values from second half of the encryption, I wrote a python program to decrypt the flag (aka the first half of the encryption)
 ```
+### CODE: 
 ```python
 pt= ""
 text = ""
