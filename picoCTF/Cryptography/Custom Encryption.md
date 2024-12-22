@@ -2,6 +2,7 @@
 
 **Flag:** `picoCTF{custom_d2cr0pt6d_8b41f976}`
 
+---
 How you approached the challenge:
 
 - step 1
@@ -49,7 +50,7 @@ for i, char in enumerate(text):
     
 print(pt[::-1])
 ```
-
+---
 
 What you learned through solving this challenge:
 
