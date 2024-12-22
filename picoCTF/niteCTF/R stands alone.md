@@ -32,6 +32,9 @@ Just used long_to_bytes() to get the byte expression of that number and there it
 ![image](https://github.com/user-attachments/assets/39dc460e-cd74-4e7c-9c26-2b06a4ffeeaa)
 
 
-References
+
+
+
+References (half the work 😂)
 
 - https://b0mk35h.medium.com/unlocking-secrets-a-beginners-guide-to-rsa-decryption-in-python-89a71ccda295
