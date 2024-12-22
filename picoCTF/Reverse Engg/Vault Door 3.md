@@ -1,6 +1,6 @@
 # Challenge name
 
-**Flag:** `flag`
+**Flag:** `picoCTF{jU5t_a_s1mpl3_an4gr4m_4_u_1fb380}`
 
 How you approached the challenge:
 
@@ -59,12 +59,10 @@ class VaultDoor3 {
 - step 2
 
 ```
-terminal output
+"jU5t_a_sna_3lpm18gb41_u_4_mfr340"
+
+Placed that string in an array called buffer by tracing the for loops, and that array gave me the flag jU5t_a_s1mpl3_an4gr4m_4_u_1fb380
 ```
-
-- etc.
-
-![screenshot](./screenshot.png)
 
 What you learned through solving this challenge:
 
