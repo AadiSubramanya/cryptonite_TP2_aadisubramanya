@@ -13,7 +13,7 @@ Looked through the ciphertext file and noticed a very small value of e (public k
 - step 2
 
 ```
-Asked chatgpt to provide a code to give huge cube root that with maximum precision (since I had no idea) 
+Asked chatgpt to provide a code to give cube root of huge numbers with maximum precision (since I had no idea) 
 ```
 ```python
 def rooter(x,n):
