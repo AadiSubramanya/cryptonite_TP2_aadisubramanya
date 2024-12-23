@@ -23,7 +23,6 @@ Again, I chose the one with a vulnarable format specifier which was the 3rd one.
 I was then provided with the flag.
 ```
 
-![screenshot](./screenshot.png)
 
 What I learned through solving this challenge:
 
@@ -31,8 +30,10 @@ What I learned through solving this challenge:
    
 2. If no valid argument is provided for %s, it can read arbitrary parts of memory potentially leaking sensitive information hence a vulnaribility.
 
+
 Other incorrect methods you tried:
 -
+
 
 References
 - chatGPT to explain how these were vulnaribilities
