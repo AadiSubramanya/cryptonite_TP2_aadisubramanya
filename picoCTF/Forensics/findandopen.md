@@ -35,6 +35,8 @@ What you learned through solving this challenge:
 Other incorrect methods you tried:
 
 - trying to decode all packet values (including repeated ones with all possible hex+base64 combinations)
+- i thought only the first half of the flag was the actual flag.
+
 
 References
 
