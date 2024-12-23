@@ -36,5 +36,5 @@ Other incorrect methods you tried:
 
 
 References
-- chatGPT to explain how these were vulnaribilities
+- chatGPT to explain how these were vulnaribilities (since i got the answer through trial and error, the first time)
 
