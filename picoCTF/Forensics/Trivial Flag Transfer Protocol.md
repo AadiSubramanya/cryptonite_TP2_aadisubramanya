@@ -71,4 +71,4 @@ Other incorrect methods you tried:
 
 References
 
-- chatGPT solved most of it 😂
+- chatGPT helped
