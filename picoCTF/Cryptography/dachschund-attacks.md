@@ -1,4 +1,4 @@
-# Challenge name
+# dachschund-attacks
 
 **Flag:** `picoCTF{proving_wiener_5086186}`
 
