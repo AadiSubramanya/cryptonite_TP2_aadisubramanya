@@ -13,11 +13,31 @@ Looked through the ciphertext file and noticed a very small value of e (public k
 - step 2
 
 ```
-Searched online and read about rsa decryption and applied accordingly (after calculating cube root online)
+Asked chatgpt to provide a code to give huge cube root that with maximum precision (since I had no idea) 
+```
+```python
+def rooter(x,n):
+    high = 1
+    while high ** n <= x:
+        high *= 2
+    low = high/2
+    while low < high:
+        mid = (low + high) // 2
+        if low < mid and mid**n < x:
+            low = mid
+        elif high > mid and mid**n > x:
+            high = mid
+        else:
+            return mid
+    return mid + 1
+
+print(rooter(2205316413931134031074603746928247799030155221252519872650080519263755075355825243327515211479747536697517688468095325517209911688684309894900992899707504087647575997847717180766377832435022794675332132906451858990782325436498952049751141,3))
 ```
 ![anotherdecoder](https://github.com/user-attachments/assets/33e67b9f-c99e-439c-8fbc-aa3594c9ff58)
+
+- step 3
 ```
-Then got the flag on running
+Then got the flag on running this final program that converted the number to string.
 ```
 ![image](https://github.com/user-attachments/assets/eeb44f5e-a978-4046-90e2-b478f87b6965)
 
