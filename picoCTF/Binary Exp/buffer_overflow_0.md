@@ -7,31 +7,25 @@ How you approached the challenge:
 - step 1
 
 ```
-code
+Observerd the code and saw that the buffer size was 16.
 ```
 ![image](https://github.com/user-attachments/assets/2f3108ac-0d09-41f0-9341-a280cc4c9d54)
 - step 2
 
 ```
-terminal output
+Since buffer was limited to 16 characters of input and also becuase I knew these kind of questions from previous ctfs, I inputted a huge input which gave me the flag
 ```
 
 ![image](https://github.com/user-attachments/assets/d98a4db8-b7bb-41b4-a75a-5215ebfe65e2)
 
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1. tracing a program properly and finding vulnaribilities
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- I think I tried to run the program vuln.c which wasn't even running properly
 
 References
 
-- reference 1
-- reference 2
-- etc.
+- 
