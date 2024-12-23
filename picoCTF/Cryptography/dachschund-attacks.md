@@ -1,46 +1,32 @@
 # Challenge name
 
-**Flag:** `flag`
+**Flag:** `picoCTF{proving_wiener_5086186}`
 
 How you approached the challenge:
 
 - step 1
 
 ```
-code
+Ran the link provided and it gave me a rsa challenge
 ```
+![image](https://github.com/user-attachments/assets/f6deda50-079a-40eb-9314-d94bf4a5b0b9)
 
 - step 2
 
 ```
-terminal output
+Just put this in online rsa decrypter and immedietely got the flag (idk if it was a hacky way to solve but i got the flag needed)
 ```
-
-- etc.
-
-![screenshot](./screenshot.png)
+![image](https://github.com/user-attachments/assets/ec5b5d17-5fbf-4bbb-a528-9433d321c730)
 
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1. dcode is goated
+2. sometimes rsa can be simple
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- none actually
 
 References
 
-- reference 1
-- reference 2
-- etc.
-
-
-
-picoCTF{proving_wiener_5086186}
-![image](https://github.com/user-attachments/assets/f6deda50-079a-40eb-9314-d94bf4a5b0b9)
-![image](https://github.com/user-attachments/assets/ec5b5d17-5fbf-4bbb-a528-9433d321c730)
-https://www.dcode.fr/rsa-cipher
+- https://www.dcode.fr/rsa-cipher (goat 🙏)
