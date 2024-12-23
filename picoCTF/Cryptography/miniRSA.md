@@ -56,6 +56,6 @@ Other incorrect methods you tried:
 
 -
 References
-- https://www.calculatorsoup.com/calculators/algebra/cuberoots.php
+- https://stackoverflow.com/questions/55436001/cube-root-of-a-very-large-number-using-only-math-library
 - https://www.javatpoint.com/rsa-encryption-algorithm
 
