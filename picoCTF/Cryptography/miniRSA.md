@@ -13,7 +13,7 @@ Looked through the ciphertext file and noticed a very small value of e (public k
 - step 2
 
 ```
-Searched online and read about rsa decryption and applied accordingly
+Searched online and read about rsa decryption and applied accordingly (after calculating cube root online)
 ```
 ![anotherdecoder](https://github.com/user-attachments/assets/33e67b9f-c99e-439c-8fbc-aa3594c9ff58)
 ```
@@ -32,6 +32,6 @@ Other incorrect methods you tried:
 
 -
 References
-
+- https://www.calculatorsoup.com/calculators/algebra/cuberoots.php
 - https://www.javatpoint.com/rsa-encryption-algorithm
 
