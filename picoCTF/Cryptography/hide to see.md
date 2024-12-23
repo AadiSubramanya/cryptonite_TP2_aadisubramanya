@@ -26,6 +26,7 @@ It looked ciphered again so I ran it through atbash cipher like the image said a
 What you learned through solving this challenge:
 
 1. improved steghide knowledge
+2. atbash ciphers
 
 Other incorrect methods you tried:
 
