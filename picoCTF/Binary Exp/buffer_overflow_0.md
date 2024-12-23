@@ -9,14 +9,13 @@ How you approached the challenge:
 ```
 code
 ```
-
+![image](https://github.com/user-attachments/assets/2f3108ac-0d09-41f0-9341-a280cc4c9d54)
 - step 2
 
 ```
 terminal output
 ```
 
-![image](https://github.com/user-attachments/assets/2f3108ac-0d09-41f0-9341-a280cc4c9d54)
 ![image](https://github.com/user-attachments/assets/d98a4db8-b7bb-41b4-a75a-5215ebfe65e2)
 
 What you learned through solving this challenge:
