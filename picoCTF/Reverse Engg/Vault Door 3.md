@@ -66,7 +66,8 @@ Placed that string in an array called buffer by tracing the for loops, and th
 
 What you learned through solving this challenge:
 
-1.
+1. some java
+2. tracing programs
 
 Other incorrect methods you tried:
 
