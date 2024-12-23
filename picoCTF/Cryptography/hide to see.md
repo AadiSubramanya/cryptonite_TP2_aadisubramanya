@@ -15,7 +15,7 @@ So I ran steghide on it and after bunch of trial and error I got something on pu
 - step 2
 
 ```
-It looked ciphered again so I ran it through a bunch of deciphers when I finally got it using caesar cipher
+It looked ciphered again so I ran it through atbash cipher like the image said and i got the flag!
 ```
 
 - etc.
