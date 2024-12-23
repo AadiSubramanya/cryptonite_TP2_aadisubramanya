@@ -10,7 +10,8 @@ How you approached the challenge:
 Since the challenge had to do with rail fence cipher, I simply just searched up for rail fence decipher and like the instructions said, I put in 4 rails, through which I got the required flag!
 ```
 
-![image](https://github.com/user-attachments/assets/114dbf66-3e90-490e-a27f-1605f26cc1e1)
+![image](https://github.com/user-attachments/assets/e793f688-aaa1-4c7a-a65e-7a7cfa607b18)
+
 
 What I learned:
 
