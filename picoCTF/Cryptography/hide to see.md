@@ -1,4 +1,4 @@
-# Challenge name
+# hide to see
 
 **Flag:** `picoCTF{atbash_crack_92533667}`
 
