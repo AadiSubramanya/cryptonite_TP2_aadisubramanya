@@ -1,46 +1,41 @@
 # Challenge name
 
-**Flag:** `picoCTF{atbash_crack_92533667`
+**Flag:** `picoCTF{atbash_crack_92533667}`
 
 How you approached the challenge:
 
 - step 1
 
 ```
-code
+After a bunch of fiddling with the image I tried to search online on how data can be hidden in an image, and remembered about steghide.
+So I ran steghide on it and after bunch of trial and error I got something on putting nothing as the password
 ```
-
+![image](https://github.com/user-attachments/assets/afbd7eaa-e381-46fe-a437-be83dcf28bbd)
+![image](https://github.com/user-attachments/assets/cfb7d1cb-a975-4280-a3c5-6be029fc33d7)
 - step 2
 
 ```
-terminal output
+It looked ciphered again so I ran it through a bunch of deciphers when I finally got it using caesar cipher
 ```
 
 - etc.
 
-![screenshot](./screenshot.png)
+
+![WhatsApp Image 2024-12-23 at 00 21 09_9a0b8ffb](https://github.com/user-attachments/assets/9ccedd84-339c-4673-9e4f-b44dd8ff5713)
 
 What you learned through solving this challenge:
 
-1. first concept
-2. second concept
-3. etc.
+1. improved steghide knowledge
 
 Other incorrect methods you tried:
 
-- a
-- b
-- c
+- trying to get something from the website link provided in the image
+- trying to put website link as the password in steghide step
 
 References
 
-- reference 1
-- reference 2
-- etc.
+- https://www.boxentriq.com/code-breaking/caesar-cipher
 
 
-![image](https://github.com/user-attachments/assets/afbd7eaa-e381-46fe-a437-be83dcf28bbd)
-![image](https://github.com/user-attachments/assets/cfb7d1cb-a975-4280-a3c5-6be029fc33d7)
 
-![WhatsApp Image 2024-12-23 at 00 21 09_9a0b8ffb](https://github.com/user-attachments/assets/9ccedd84-339c-4673-9e4f-b44dd8ff5713)
 
